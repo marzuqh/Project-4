@@ -1,0 +1,24 @@
+Player Case 1:
+
+Checks the case for counting player and whether they will draw, based on 
+conditions provided in the spec i.e. if the dealer has said card and player 
+has a spec. hand will he/she draw?
+
+Player Case 2:
+
+Tests the bet portion of the counting player to see if it returns minimum 
+when required
+
+Player Case 3:
+
+Checks if expose() increments the private counter in counting player when 
+necessary
+
+Player Case 4:
+
+Checks if shuffle actually resets counting player's internal counter
+
+Player Case 5:
+
+Checks if expose() decrements the private counter in counting 
+player when necessary

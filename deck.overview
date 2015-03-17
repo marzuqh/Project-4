@@ -1,0 +1,18 @@
+Deck Case 1:
+
+Checks reset() to see if cards are in order from 2-Ace in each suit spades to 
+hearts to clubs to diamonds. Uses a for loop to check every card.
+
+Deck Case 2:
+
+Checks deal() and sees if it throws DeckEmpty when the deck is actually empty. 
+Does so by dealing out the deck using a for loop. It attemps to deal the next
+card. If it cannot (as expected), it throws an exception and returns 0;
+
+Deck Case 3:
+
+Checks shuffle() to see if a shuffle of 26 results in the proper deck
+
+Deck Case 4:
+
+Checks the cardsLeft function testing the post-deal and post-reset results
